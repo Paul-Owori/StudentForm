@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Registration</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+          <h2>STUDENT REGISTRATION FORM</h2>
+          <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+          <fieldset>
+            <p><h3>Personal Info</h3></p>
+            <p><label for="first_name">First Name </label><strong><abbr title="required">*</abbr></strong><input type="text" name="first_name" value="Your first Name" required>  <label for="last_name">Last Name</label><strong><abbr title="required">*</abbr></strong><input type="text" name="last_name" value="Your last Name" required></p>
+            <label>Age</label><strong><abbr title="required">*</abbr></strong>
+                   <select id = "AgeList">
+                     <option value="1">01</option>
+                     <option value="2">02</option>
+                     <option value="3">03</option>
+                     <option value="4">04</option>
+                     <option value="5">05</option>
+                     <option value="6">06</option>
+                     <option value="7">07</option>
+                     <option value="8">08</option>
+                     <option value="9">09</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                     <option value="25">25</option>
+                     <option value="26">26</option>
+                     <option value="27">27</option>
+                     <option value="28">28</option>
+                     <option value="29">29</option>
+
+                   </select>
+      <p><label for="Date of Birth">Date of Birth:</label><strong><abbr title="required">*</abbr></strong>
+
+              <input type="date" id="date of birth" name="date of birth"
+                     value="2019-03-06"
+                     min="1990-01-01" max="2019-12-31" required></p>
+          <p><label for="Sex">Sex:</label><strong><abbr title="required">*</abbr></strong>
+            <div>
+              <p>
+                <input type="radio" name="sex" id="M" value="Male">
+                <label for="M">M</label>
+              </p>
+              <p>
+                <input type="radio" name="sex" id="F" value="Female">
+                <label for="F">F</label>
+              </p>
+            </div>
+            <p>
+              <label for="usermail">Email Address</label><strong><abbr title="required">*</abbr></strong><input type="email" name="usermail" value="">
+            </p>
+            <div>
+              <label for="number">Phone Number :</label><strong><abbr title="required">*</abbr></strong><input type="number" name="phonenumber" value="">
+            </div>
+            <p>
+              <label for="bio">Bio :</label>
+            </p>
+            <p>
+              <TEXTAREA name="content" ROWS="5" COLS="60"></TEXTAREA>
+            </p>
+            <p>
+              <label for="height">Height in Centimetres</label>
+              (0cm)<input type="range" list="tickmarks">
+
+      <datalist id="tickmarks">
+        <option value="0" label="0%">
+        <option value="05">
+        <option value="10">
+        <option value="15">
+        <option value="20">
+        <option value="25">
+        <option value="30">
+        <option value="35">
+        <option value="40">
+        <option value="45">
+        <option value="50" <label for="50">50</label>>
+        <option value="55">
+        <option value="60">
+        <option value="65">
+        <option value="70">
+        <option value="75">
+        <option value="80">
+        <option value="85">
+        <option value="90">
+        <option value="95">
+        <option value="100" label="100%">
+      </datalist>(300cm)
+      </fieldset>
+      <br>
+      <fieldset>
+       <p><h3>Application Info</h3></p>
+      <p>
+        <label>When did you graduate?</label>
+        <input type="date" id="graduation date" name="graduation date"
+               value="2014-01-01"
+               min="2014-01-01" max="2019-12-31">
+        <br>
+      </p>
+      <p>
+      <label for="languages">Choose four languages you would like to learn : </label>
+      <input list = "languages" />
+      <datalist id="languages">
+       <option value="HTML">
+       <option value="CSS">
+       <option value="JavaScript">
+       <option value="Java">
+       <option value="Ruby">
+       <option value="PHP">
+       <option value="Go">
+       <option value="Erlang">
+       <option value="Python">
+       <option value="C">
+       <option value="C#">
+       <option value="C++">
+      </datalist>
+      <input list = "languages" />
+      <datalist id="languages">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+        <option value="Java">
+        <option value="Ruby">
+        <option value="PHP">
+        <option value="Go">
+        <option value="Erlang">
+        <option value="Python">
+        <option value="C">
+        <option value="C#">
+        <option value="C++">
+      </datalist>
+      <input list = "languages" />
+      <datalist id="languages">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+        <option value="Java">
+        <option value="Ruby">
+        <option value="PHP">
+        <option value="Go">
+        <option value="Erlang">
+        <option value="Python">
+        <option value="C">
+        <option value="C#">
+        <option value="C++">
+      </datalist>
+      <input list = "languages" />
+      <datalist id="languages">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+        <option value="Java">
+        <option value="Ruby">
+        <option value="PHP">
+        <option value="Go">
+        <option value="Erlang">
+        <option value="Python">
+        <option value="C">
+        <option value="C#">
+        <option value="C++">
+      </datalist>
+      </p>
+      <p>
+        <label>Upload proof of your most recent education here</label>
+        <br>
+        <input type="file" name="education" value="">
+      </p>
+      </fieldset>
+      <br>
+      <fieldset>
+        <p><h3>Submit</h3></p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit form">
+      </fieldset>
+    </form>
+  </body>
+</html>
